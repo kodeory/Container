@@ -1,0 +1,6 @@
+# ignore netbeans metadata
+nbproject/
+# ignore vendor folder
+vendor/
+# ingore composer.lock
+composer.lock

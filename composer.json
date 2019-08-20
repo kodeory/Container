@@ -1,0 +1,31 @@
+{
+    "name": "kodeory/container",
+    "description": "Dependancy injection container",
+    "type": "library",
+    "require": {
+        "php": "^7.3",
+        "psr/container": "^1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michal Matus",
+            "email": "matusmichal2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { 
+            "Kodeory\\Container\\": "src/",
+            "Kodeory\\Container\\Tests\\": "tests/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "Kodeory\\Container\\Tests\\": "tests/" 
+        }
+    }     
+}
